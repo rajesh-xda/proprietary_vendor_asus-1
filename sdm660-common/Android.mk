@@ -16,6 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
+
 ifneq ($(filter X00TD,$(TARGET_DEVICE)),)
 
 endif

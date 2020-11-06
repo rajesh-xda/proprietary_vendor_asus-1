@@ -22,6 +22,7 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
 	name: "libthermalclient",
+    check_elf_files: false,
 	owner: "asus",
 	strip: {
 		none: true,
