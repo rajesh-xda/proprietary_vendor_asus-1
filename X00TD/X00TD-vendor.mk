@@ -20,7 +20,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/asus/X00TD/proprietary/bin/nvram_btwifi:$(TARGET_COPY_OUT_SYSTEM)/bin/nvram_btwifi \
     vendor/asus/X00TD/proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
-vendor/asus/X00TD/proprietary/etc/permissions/asus.hardware.fingerprint_earlywakeup.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/asus.hardware.fingerprint_earlywakeup.xml \    
+    vendor/asus/X00TD/proprietary/etc/permissions/asus.hardware.fingerprint_earlywakeup.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/asus.hardware.fingerprint_earlywakeup.xml \
     vendor/asus/X00TD/proprietary/lib64/libmmi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmi.so \
     vendor/asus/X00TD/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/asus/X00TD/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
