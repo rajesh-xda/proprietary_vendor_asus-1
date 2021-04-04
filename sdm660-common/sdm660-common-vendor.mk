@@ -548,7 +548,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libantradio \
-    SoterService \
     WfdService \
     com.qualcomm.location \
     CneApp \
